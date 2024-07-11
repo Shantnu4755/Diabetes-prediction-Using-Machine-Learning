@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Prediction Using Machine Learning</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='myhome.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='animations.css') }}">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Diabetes Prediction Using Machine Learning</h1>
+        <p> 🚀Unlock your health's future with DiabetesPrediction App! Say goodbye to uncertainty, embrace proactive well-being now. 🚀</p>
+        <br>
+        <h3>Revolutionize health with our Diabetes Predictor – AI for your well-being!</h3>
+        <br>
+        <h2 class="animated-text">Tap to Check: Are You Diabetic or Not? 🩸✨</h2>
+    </main>
+    <form action="/Predict">
+        <input type="submit" id="Predict" name="Predict" value="Predict">
+    </form>
+</body>
+
+</html>
